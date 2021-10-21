@@ -1,0 +1,21 @@
+.spacing {
+    background-color: rgb(243, 237, 238);
+    display: block;
+    padding: 2%;
+}
+
+.header {
+    background-color: rgb(17, 189, 131);
+}
+
+.card-body {
+    background-color: rgb(226, 144, 189);
+}
+
+.card {
+    border-radius: 5%;
+}
+
+body {
+    background-color: rgb(153, 207, 252)
+}
