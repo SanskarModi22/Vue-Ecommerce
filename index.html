@@ -14,6 +14,7 @@
 
 <body>
     <div id="App" v-cloak>
+        <!-- NAVBAR SECTION -->
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><b>Filter.io</b></a>
@@ -152,6 +153,8 @@
                 </div>
             </div>
         </nav>
+
+        <!-- DISPLAYING OF CONTENT -->
         <div v-for="(item,i) in filterSearch" :key="i">
             <div class="card spacing">
                 <h5 class="card-header header">{{item.title}}</h5>

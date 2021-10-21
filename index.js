@@ -96,6 +96,7 @@ var app = Vue.createApp({
         }
     },
     computed: {
+        // Logic For Filtering
         filterSearch() {
             return this.Items.filter((item) => {
                 return item.title.match(this.search) && item.rating >= this.rate && item.price >= this.priceRange &&
@@ -105,7 +106,7 @@ var app = Vue.createApp({
 
     },
     methods: {
-
+        // Logic for Sorting
         SortRating() {
             this.Items.sort(function(a, b) {
                 if (this.sortDirection == 'DESC') {
