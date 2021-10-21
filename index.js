@@ -1,7 +1,6 @@
 var app = Vue.createApp({
     data() {
         return {
-            title: 'Hello',
             search: '',
             priceRange: 0,
             sortDirection: 'DESC',

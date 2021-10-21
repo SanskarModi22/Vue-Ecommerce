@@ -155,6 +155,10 @@
         </nav>
 
         <!-- DISPLAYING OF CONTENT -->
+        <h2 v-if='category==""'>All Items</h2>
+        <h2 v-else>{{category}}</h2>
+
+
         <div v-for="(item,i) in filterSearch" :key="i">
             <div class="card spacing">
                 <h5 class="card-header header">{{item.title}}</h5>
